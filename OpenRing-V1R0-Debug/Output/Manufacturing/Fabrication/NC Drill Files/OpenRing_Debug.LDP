@@ -1,0 +1,5 @@
+Layer Pairs Export File for PCB: D:\WORK\Projects\OpenRing\Hardware\OpenRing-V1R0-Debug\PCB\OpenRing_Debug.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=openring_debug-roundholes-plated.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=openring_debug-slotholes-plated.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=openring_debug-roundholes-nonplated.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_NonPlated_Slot_Holes|DrillFile=openring_debug-slotholes-nonplated.txt|DrillLayers=gtl,g1,g2,gbl

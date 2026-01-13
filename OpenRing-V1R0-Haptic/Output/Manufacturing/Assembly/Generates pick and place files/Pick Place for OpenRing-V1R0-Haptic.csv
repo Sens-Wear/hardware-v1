@@ -1,0 +1,22 @@
+Altium Designer Pick and Place Locations
+D:\WORK\Projects\OpenRing\Hardware\OpenRing-V1R0-Haptic\Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for OpenRing-V1R0-Haptic.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       23/07/25
+Time:       16:16
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"P40","51281-1098","BottomLayer","51281-1098","38.8500","29.7000","270","FFC/FPC Connector, Surface Mount, Right-Angle, Non-ZIF, Dual Contact Style"
+"C44","4.7uF","TopLayer","CAPC1005X05N","39.8000","26.2000","180","Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
+"C43","4.7uF","TopLayer","CAPC1005X05N","39.8000","27.1000","180","Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
+"C40","4.7uF","TopLayer","CAPC1005X05N","37.9000","32.7000","90","Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
+"CONN40","NC","TopLayer","51281-1098-PCB","27.1000","29.7250","0",""
+"U40","DRV2605LYZFR","TopLayer","BGA9C50P3X3_144X144X62","38.3000","29.6000","180","Haptic driver for ERM/LRA with 2-V operation, waveform library & auto-resonance tracking 9-DSBGA -40 to 85"
+"M40","G0832012","BottomLayer","G0832012","35.7000","29.6500","90","VIBRATION MOTOR 1.8V"
+"C42","0.47 uF","TopLayer","CAPC1005X05N","38.8000","32.7000","90","CAP CER 0.47UF 10V X5R 0402"
+"C41","1 uF","TopLayer","CAPC1005X05N","39.8000","28.0000","180","CAP CER 1UF 10V X5R 0402"

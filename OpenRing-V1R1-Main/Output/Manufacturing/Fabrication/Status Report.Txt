@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [OpenRing-V1R1-MainBoard.PcbDoc]
+   Generated File[OpenRing-V1R1-MainBoard-Plated.TXT]
+   Generated File[OpenRing-V1R1-MainBoard.LDP]
+   Generated File[OpenRing-V1R1-MainBoard.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:14:39 PM On 1/5/2026

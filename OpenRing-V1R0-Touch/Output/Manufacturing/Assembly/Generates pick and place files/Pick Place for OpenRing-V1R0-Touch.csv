@@ -1,0 +1,20 @@
+Altium Designer Pick and Place Locations
+D:\WORK\Projects\OpenRing\Hardware\OpenRing-V1R0-Touch\Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for OpenRing-V1R0-Touch.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       23/07/25
+Time:       16:24
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"Touch","NC","TopLayer","TOUCH-15CH-LINEAR","53.7500","29.7500","0",""
+"R71","1.5 k","BottomLayer","RESC1005X04N","35.8750","27.1500","180","RES SMD 1.5K OHM 1% 1/10W 0402"
+"R72","1.5 k","BottomLayer","RESC1005X04N","35.8750","27.9855","180","RES SMD 1.5K OHM 1% 1/10W 0402"
+"R70","1.5 k","BottomLayer","RESC1005X04N","35.8750","31.3500","180","RES SMD 1.5K OHM 1% 1/10W 0402"
+"CONN70","NC","TopLayer","51281-1098-PCB","27.1000","29.7250","0",""
+"U70","MTCH6102-I/MV","BottomLayer","QFN40P400X400X55_HS-29N","39.2750","29.7500","90","Capacitive Touch Screen Automotive 28-Pin UQFN EP Tube"
+"C70","0.47 uF","BottomLayer","CAPC1005X05N","35.8750","32.2250","180","CAP CER 0.47UF 10V X5R 0402"
