@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=SensWear_Debug_DEBUG.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=SensWear_Debug_DEBUG.SchDoc|FileName=SensWear_Debug_Main.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=SensWear_Debug_DEBUG.SchDoc|FileName=SensWear_Debug_UART2USB_1.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=SensWear_Debug_DEBUG.SchDoc|FileName=SensWear_SWD.SchDoc|SheetNumber=3

@@ -1,0 +1,8 @@
+History
+__Previews
+*.log
+*.PCB3DLib
+**/History
+**/Project Logs**
+**/__Previews
+**/*.log
