@@ -1,0 +1,37 @@
+Altium Designer Pick and Place Locations
+D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Debug\Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for SensWear_Debug.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       23/07/25
+Time:       16:07
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"USB80","DX07S024JJ3R1300","TopLayer","JAE-DX07S024JJ3R1300-MFG","36.4500","17.5000","90","Cut Tape - Usb Type C Receptacle Mid Mnt Dual R"
+"U80","FT232RL","BottomLayer","SOP65P780X200-28N","27.2000","17.5000","270","IC USB FS SERIAL UART 28-SSOP"
+"SWD80B","SSQ-106-23-F-S","TopLayer","FP-SSQ-106-23-F-S-MFG","14.3000","12.3000","180","Headers & Wire Housings Tiger Buy Socket Strip with Square Tails, 0.100 Pitch"
+"SWD80A","SSQ-106-23-F-S","TopLayer","FP-SSQ-106-23-F-S-MFG","14.3000","22.0000","180","Headers & Wire Housings Tiger Buy Socket Strip with Square Tails, 0.100 Pitch"
+"RST80B","B3U-1000P","TopLayer","B3U-1000P","3.8000","11.4000","270","SWITCH TACTILE SPST-NO 0.05A 12V"
+"RST80A","B3U-1000P","TopLayer","B3U-1000P","3.7000","23.1000","90","SWITCH TACTILE SPST-NO 0.05A 12V"
+"R85","5.1 k","BottomLayer","RESC1005X04N","39.2000","16.6500","0","RES SMD 5.1K OHM 1% 1/10W 0402"
+"R84","5.1 k","BottomLayer","RESC1005X04N","39.2000","15.7500","0","RES SMD 5.1K OHM 1% 1/10W 0402"
+"R83","100 R","TopLayer","RESC1005X04N","26.9000","14.6100","270","RES SMD 100 OHM 1% 1/10W 0402"
+"R82","100 R","TopLayer","RESC1005X04N","26.0500","14.6100","270","RES SMD 100 OHM 1% 1/10W 0402"
+"R81B","10 k","BottomLayer","RESC1005X04N","10.4950","15.5100","90","RES SMD 10K OHM 1% 1/10W 0402"
+"R81A","10 k","BottomLayer","RESC1005X04N","10.4450","18.7000","270","RES SMD 10K OHM 1% 1/10W 0402"
+"R80B","10 k","BottomLayer","RESC1005X04N","13.0000","15.5100","90","RES SMD 10K OHM 1% 1/10W 0402"
+"R80A","10 k","BottomLayer","RESC1005X04N","12.9850","18.7000","270","RES SMD 10K OHM 1% 1/10W 0402"
+"P80","504754-1100","BottomLayer","5047541100","3.6250","17.5000","90","Conn FFC/FPC Connector SKT 11 POS 0.3mm Solder RA SMD Easy-On� T/R"
+"JLINK80B","5103308-5","TopLayer","TE_5103308-5","22.8550","5.7300","0","Header; Pin; Vertical; Copper Alloy; Thermoplastic; 20; 0.100 x 0.100 in.; 1 A"
+"JLINK80A","5103308-5","TopLayer","TE_5103308-5","23.0700","29.2700","0","Header; Pin; Vertical; Copper Alloy; Thermoplastic; 20; 0.100 x 0.100 in.; 1 A"
+"FB80","BLM15AG601SN1D","BottomLayer","MURA-BLM15-CHIP-2_V","39.2250","14.9000","180","FERRITE BEAD 600 OHM 0402 1LN"
+"D80","LTST-C155KGJRKT","TopLayer","LTST-C155KGJRKT","27.1250","17.5000","0","LED GREEN/RED CLEAR CHIP SMD"
+"C84","0.1 uF","TopLayer","CAPC1005X05N","28.6750","14.6250","90","CAP CER 0.1UF 16V X5R 0402"
+"C83","4.7uF","BottomLayer","CAPC1610X05N","39.1000","17.8800","180","Cap Ceramic 4.7uF 10V X5R 10% Pad SMD 0603 85C T/R"
+"C82","4.7uF","BottomLayer","CAPC1610X05N","39.0750","19.0500","180","Cap Ceramic 4.7uF 10V X5R 10% Pad SMD 0603 85C T/R"
+"C81","0.1 uF","TopLayer","CAPC1005X05N","24.9250","20.8250","90","CAP CER 0.1UF 16V X5R 0402"
+"C80","0.1 uF","TopLayer","CAPC1005X05N","27.7750","14.5750","270","CAP CER 0.1UF 16V X5R 0402"
