@@ -202,7 +202,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=Output\SensWear_Debug_Manufacturing.OutJob
+DocumentPath=Project Outputs for SensWear-V1R1-Debug\SensWear_Debug_Manufacturing.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -240,120 +240,124 @@ DocumentPath=Output\Manufacturing\Assembly\Bill of Materials\Bill of Materials-S
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for SensWear_Debug\Design Rule Check - SensWear_Debug.html
+DocumentPath=Project Outputs for SensWear-V1R1-Debug\Design Rule Check - SensWear-V1R1-Debug.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.G1
+DocumentPath=Project Outputs for SensWear_Debug\Design Rule Check - SensWear_Debug.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.G2
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.G1
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBL
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.G2
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBO
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBP
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBS
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GM
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GM1
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GM
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTL
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTO
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTP
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTS
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for SensWear_Debug.csv
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-RoundHoles-NonPlated.TXT
+DocumentPath=Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for SensWear_Debug.csv
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-RoundHoles-Plated.TXT
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-RoundHoles-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-SlotHoles-NonPlated.TXT
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-RoundHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-SlotHoles-Plated.TXT
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-SlotHoles-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug.DRR
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-SlotHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Debug.EXTREP
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug.LDP
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Debug.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
 DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Debug.REP
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ApprovedBy
-Value=Dariush Salami
+Name=RevisionDate
+Value=01.05.2025
 
 [Parameter2]
-Name=BoardName
-Value=SensWear-Debug-RevA
+Name=Revision
+Value=B0
 
 [Parameter3]
-Name=DrawnBy
-Value=Yusein Ali
+Name=Project
+Value=SenseWare-V1R1
 
 [Parameter4]
 Name=Engineer
 Value=Yusein Ali
 
 [Parameter5]
-Name=Project
-Value=SWDebug-V1R0
+Name=DrawnBy
+Value=Yusein Ali
 
 [Parameter6]
-Name=Revision
-Value=A0
+Name=BoardName
+Value=SensWear-Debug-RevB
 
 [Parameter7]
-Name=RevisionDate
-Value=01.05.2025
+Name=ApprovedBy
+Value=Dariush Salami
 
 [Configuration1]
 Name=Sources
