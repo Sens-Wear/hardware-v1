@@ -116,6 +116,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for SensWear-V1R1-Haptic\Design Rule Check - SensWear-V1R1-Haptic.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ApprovedBy
 Value=Dariush Salami
