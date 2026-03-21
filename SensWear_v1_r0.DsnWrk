@@ -18,7 +18,3 @@ ProjectPath=SensWear-V1R0-Temperature\SensWear-V1R0-Temperature.PrjPcb
 ProjectPath=SensWear-V1R0-Debug\SensWear_Debug.PrjPcb
 [Project9]
 ProjectPath=SensWear-V1R0-Panel\SensWear-V1R0-Panel.PrjPcb
-[Project10]
-ProjectPath=SensWear_V1R1\SensWear_V1R1.PrjMbd
-[Project11]
-ProjectPath=SensWear-V1R1-Main\SensWear-V1R1.PrjPcb
