@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [SensWear_SensorPanel_V1R1.PcbDoc]
+   Generated File[Pick Place for SensWear_SensorPanel_V1R1.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:16:00 PM On 3/22/2026

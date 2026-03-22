@@ -63,7 +63,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ITWKIFDO
 
 [Document2]
 DocumentPath=Output\SensWear_Panel_Manufacturing.OutJob
@@ -97,7 +97,91 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SAQNPBVJ
+
+[GeneratedDocument1]
+DocumentPath=Output\Manufacturing\Assembly\Bill of Materials\Bill of Materials-SensWear_SensorPanel_V1R1.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GM
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for SensWear_SensorPanel_V1R1.csv
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.G1
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.G2
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Panel_V1R0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_SensorPanel_V1R1-RoundHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_SensorPanel_V1R1-SlotHoles-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_SensorPanel_V1R1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_SensorPanel_V1R1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_SensorPanel_V1R1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_SensorPanel_V1R1.REP
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -621,96 +705,66 @@ Name=Export Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Ansoft Neutral
-OutputName1=Ansoft Neutral (AutoPCB)
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf PCB
-OutputName2=AutoCAD dwg/dxf File PCB
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=AutoCAD dwg/dxf Schematic
-OutputName3=AutoCAD dwg/dxf File Schematic
+OutputType3=ExportIDF
+OutputName3=Export IDF
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=ExportIDF
-OutputName4=Export IDF
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
+OutputType5=ExportSTEP
+OutputName5=Export STEP
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ExportSTEP
-OutputName6=Export STEP
+OutputType6=ExportVRML
+OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=ExportVRML
-OutputName7=Export VRML
+OutputType7=MBAExportPARASOLID
+OutputName7=Export PARASOLID
 OutputDocumentPath7=
-OutputVariantName7=[No Variations]
+OutputVariantName7=
 OutputDefault7=0
-OutputType8=HyperLynx
-OutputName8=HyperLynx (AutoPCB)
+OutputType8=MBAExportSTEP
+OutputName8=Export STEP
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=MBAExportPARASOLID
-OutputName9=Export PARASOLID
+OutputType9=Save As/Export PCB
+OutputName9=Save As/Export PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=MBAExportSTEP
-OutputName10=Export STEP
+OutputType10=Save As/Export Schematic
+OutputName10=Save As/Export Schematic
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=Orcad v7 Capture Design
-OutputName11=Orcad v7 Capture Design (AutoSCH)
+OutputType11=Specctra Design PCB
+OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=P-CAD ASCII
-OutputName12=P-CAD ASCII (AutoPCB)
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=P-CAD V16 Schematic Design
-OutputName13=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Save As/Export PCB
-OutputName14=Save As/Export PCB
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Save As/Export Schematic
-OutputName15=Save As/Export Schematic
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=SiSoft
-OutputName16=SiSoft (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=Specctra Design PCB
-OutputName17=Specctra Design PCB
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=Web ReviewOutputName
-OutputName18=Web Review Data
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

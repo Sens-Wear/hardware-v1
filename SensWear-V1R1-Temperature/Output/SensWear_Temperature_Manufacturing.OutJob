@@ -292,7 +292,7 @@ OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [PublishSettings]
-OutputFilePath2=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Temperature\Output\Manufacturing\Assembly\
+OutputFilePath2=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Temperature\Output\Manufacturing\Assembly\
 ReleaseManaged2=0
 OutputBasePath2=.\Output\Manufacturing\
 OutputPathMedia2=[Media Name]
@@ -305,7 +305,7 @@ OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
 OpenOutput2=1
-OutputFilePath3=D:\WORK\Projects\BiyomodDevelopment\Repositories\PingBit\Mate2DPro\Hardware\Mate2D_v2_Debug\Output\Manufacturing\Fabrication\
+OutputFilePath3=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Temperature\Output\Manufacturing\Fabrication\
 ReleaseManaged3=0
 OutputBasePath3=Output\Manufacturing\
 OutputPathMedia3=[Media Name]
@@ -360,7 +360,7 @@ PDFACompliance5=Disabled
 PDFVersion5=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Temperature\Output\Manufacturing\Assembly\
+RelativeOutputPath2=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Temperature\Output\Manufacturing\Assembly\
 OpenOutputs2=1
 AddToProject2=1
 TimestampFolder2=0
@@ -370,7 +370,7 @@ OpenGerberOutput2=0
 OpenNCDrillOutput2=0
 OpenIPCOutput2=0
 EnableReload2=0
-RelativeOutputPath3=D:\WORK\Projects\BiyomodDevelopment\Repositories\PingBit\Mate2DPro\Hardware\Mate2D_v2_Debug\Output\Manufacturing\Fabrication\
+RelativeOutputPath3=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Temperature\Output\Manufacturing\Fabrication\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0

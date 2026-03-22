@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=SensWear_Panel_Manufacturing.OutJob
 Description=
-TargetOutputMedium=New PDF
+TargetOutputMedium=Assembly-Doc
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -33,12 +33,12 @@ OutputMedium3=Fabrication
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=BoardStack
 OutputMedium4_Type=GeneratedFiles
-OutputMedium5=New PDF
+OutputMedium5=Assembly-Doc
 OutputMedium5_Type=Publish
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
 OutputCategory1=Fabrication
-OutputDocumentPath1=SensWear_Panel_V1R0.PcbDoc
+OutputDocumentPath1=SensWear_SensorPanel_V1R1.PcbDoc
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -53,7 +53,7 @@ Configuration1_Item1=Record=LayerStackReportView|Units=Metric|DocumentPath=D:\WO
 OutputType2=Drill
 OutputName2=Drill Drawing/Guides
 OutputCategory2=Fabrication
-OutputDocumentPath2=SensWear_Panel_V1R0.PcbDoc
+OutputDocumentPath2=SensWear_SensorPanel_V1R1.PcbDoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -67,7 +67,7 @@ PcbPrintPreferences2=
 OutputType3=Gerber
 OutputName3=Gerber Files
 OutputCategory3=Fabrication
-OutputDocumentPath3=SensWear_Panel_V1R0.PcbDoc
+OutputDocumentPath3=SensWear_SensorPanel_V1R1.PcbDoc
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
@@ -77,11 +77,11 @@ OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=ITWKIFDO|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=False|OptimizeChangeLocationCommands=False|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16777219~1,16908290~1|PlotBoardProfile=True|PlotBoardProfileFileName=Mate2DPro_Debug.GM|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=True|Sorted=True|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName=SensWear_Panel_V1R0.GD1|UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName=SensWear_Panel_V1R0.GG1|UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UserLayerName.Caption0=SensWear_Panel_V1R0.GKO|UserLayerName.Caption1=SensWear_Panel_V1R0.GTP|UserLayerName.Caption10=SensWear_Panel_V1R0.G2|UserLayerName.Caption11=SensWear_Panel_V1R0.GM6|UserLayerName.Caption12=SensWear_Panel_V1R0.GM16|UserLayerName.Caption13=SensWear_Panel_V1R0.GBL|UserLayerName.Caption14=SensWear_Panel_V1R0.GM29|UserLayerName.Caption15=SensWear_Panel_V1R0.GM15|UserLayerName.Caption16=SensWear_Panel_V1R0.GM14|UserLayerName.Caption17=SensWear_Panel_V1R0.GM30|UserLayerName.Caption18=SensWear_Panel_V1R0.GM5|UserLayerName.Caption19=SensWear_Panel_V1R0.GTL|UserLayerName.Caption2=SensWear_Panel_V1R0.GTO|UserLayerName.Caption20=SensWear_Panel_V1R0.GBO|UserLayerName.Caption21=SensWear_Panel_V1R0.GPT|UserLayerName.Caption22=SensWear_Panel_V1R0.GM13|UserLayerName.Caption23=SensWear_Panel_V1R0.GM1|UserLayerName.Caption24=SensWear_Panel_V1R0.GM24|UserLayerName.Caption25=SensWear_Panel_V1R0.GM8|UserLayerName.Caption26=SensWear_Panel_V1R0.GM3|UserLayerName.Caption27=SensWear_Panel_V1R0.GM20|UserLayerName.Caption28=SensWear_Panel_V1R0.GBP|UserLayerName.Caption3=SensWear_Panel_V1R0.GTS|UserLayerName.Caption4=SensWear_Panel_V1R0.GM4|UserLayerName.Caption5=SensWear_Panel_V1R0.GM2|UserLayerName.Caption6=SensWear_Panel_V1R0.GPB|UserLayerName.Caption7=SensWear_Panel_V1R0.G1|UserLayerName.Caption8=SensWear_Panel_V1R0.GBS|UserLayerName.Caption9=SensWear_Panel_V1R0.GM7|UserLayerName.Count=29|UserLayerName.Layer0=16973837|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16777219|UserLayerName.Layer11=16908294|UserLayerName.Layer12=16908304|UserLayerName.Layer13=16842751|UserLayerName.Layer14=16908317|UserLayerName.Layer15=16908303|UserLayerName.Layer16=16908302|UserLayerName.Layer17=16908318|UserLayerName.Layer18=16908293|UserLayerName.Layer19=16777217|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16973831|UserLayerName.Layer21=16973848|UserLayerName.Layer22=16908301|UserLayerName.Layer23=16908289|UserLayerName.Layer24=16908312|UserLayerName.Layer25=16908296|UserLayerName.Layer26=16908291|UserLayerName.Layer27=16908308|UserLayerName.Layer28=16973833|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908292|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16973849|UserLayerName.Layer7=16777218|UserLayerName.Layer8=16973835|UserLayerName.Layer9=16908295|DocumentPath=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Panel\PCB\SensWear_Panel_V1R0.PcbDoc
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=ITWKIFDO|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=False|OptimizeChangeLocationCommands=False|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16842751~1,16973835~1,16973833~1,16973831~1,16777219~1,16973848~1,16973849~1,16908289~1,16908290~1|PlotBoardProfile=True|PlotBoardProfileFileName=Mate2DPro_Debug.GM|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=True|Sorted=True|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName=SensWear_Panel_V1R0.GD1|UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName=SensWear_Panel_V1R0.GG1|UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UserLayerName.Caption0=SensWear_Panel_V1R0.GKO|UserLayerName.Caption1=SensWear_Panel_V1R0.GTP|UserLayerName.Caption10=SensWear_Panel_V1R0.G2|UserLayerName.Caption11=SensWear_Panel_V1R0.GM6|UserLayerName.Caption12=SensWear_Panel_V1R0.GM16|UserLayerName.Caption13=SensWear_Panel_V1R0.GBL|UserLayerName.Caption14=SensWear_Panel_V1R0.GM29|UserLayerName.Caption15=SensWear_Panel_V1R0.GM15|UserLayerName.Caption16=SensWear_Panel_V1R0.GM14|UserLayerName.Caption17=SensWear_Panel_V1R0.GM30|UserLayerName.Caption18=SensWear_Panel_V1R0.GM5|UserLayerName.Caption19=SensWear_SensorPanel_V1R1.GM17|UserLayerName.Caption2=SensWear_Panel_V1R0.GTO|UserLayerName.Caption20=SensWear_Panel_V1R0.GTL|UserLayerName.Caption21=SensWear_Panel_V1R0.GBO|UserLayerName.Caption22=SensWear_Panel_V1R0.GPT|UserLayerName.Caption23=SensWear_Panel_V1R0.GM13|UserLayerName.Caption24=SensWear_Panel_V1R0.GM1|UserLayerName.Caption25=SensWear_Panel_V1R0.GM24|UserLayerName.Caption26=SensWear_Panel_V1R0.GM8|UserLayerName.Caption27=SensWear_Panel_V1R0.GM3|UserLayerName.Caption28=SensWear_Panel_V1R0.GM20|UserLayerName.Caption29=SensWear_Panel_V1R0.GBP|UserLayerName.Caption3=SensWear_Panel_V1R0.GTS|UserLayerName.Caption4=SensWear_Panel_V1R0.GM4|UserLayerName.Caption5=SensWear_Panel_V1R0.GM2|UserLayerName.Caption6=SensWear_Panel_V1R0.GPB|UserLayerName.Caption7=SensWear_Panel_V1R0.G1|UserLayerName.Caption8=SensWear_Panel_V1R0.GBS|UserLayerName.Caption9=SensWear_Panel_V1R0.GM7|UserLayerName.Count=30|UserLayerName.Layer0=16973837|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16777219|UserLayerName.Layer11=16908294|UserLayerName.Layer12=16908304|UserLayerName.Layer13=16842751|UserLayerName.Layer14=16908317|UserLayerName.Layer15=16908303|UserLayerName.Layer16=16908302|UserLayerName.Layer17=16908318|UserLayerName.Layer18=16908293|UserLayerName.Layer19=16908305|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16777217|UserLayerName.Layer21=16973831|UserLayerName.Layer22=16973848|UserLayerName.Layer23=16908301|UserLayerName.Layer24=16908289|UserLayerName.Layer25=16908312|UserLayerName.Layer26=16908296|UserLayerName.Layer27=16908291|UserLayerName.Layer28=16908308|UserLayerName.Layer29=16973833|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908292|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16973849|UserLayerName.Layer7=16777218|UserLayerName.Layer8=16973835|UserLayerName.Layer9=16908295|DocumentPath=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Panel\PCB\SensWear_SensorPanel_V1R1.PcbDoc
 OutputType4=NC Drill
 OutputName4=NC Drill Files
 OutputCategory4=Fabrication
-OutputDocumentPath4=SensWear_Panel_V1R0.PcbDoc
+OutputDocumentPath4=SensWear_SensorPanel_V1R1.PcbDoc
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
@@ -91,11 +91,11 @@ OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
-Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=False|OriginPosition=Absolute|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Panel\PCB\SensWear_Panel_V1R0.PcbDoc
+Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=False|OriginPosition=Absolute|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Panel\PCB\SensWear_SensorPanel_V1R1.PcbDoc
 OutputType5=BOM_PartType
 OutputName5=Bill of Materials
 OutputCategory5=Report
-OutputDocumentPath5=SensWear_Panel_V1R0.PcbDoc
+OutputDocumentPath5=SensWear_SensorPanel_V1R1.PcbDoc
 OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
@@ -120,7 +120,7 @@ Configuration5_Item6=Manufacturer=100|Manufacturer Part Number=142|Designator=19
 OutputType6=Pick Place
 OutputName6=Generates pick and place files
 OutputCategory6=Assembly
-OutputDocumentPath6=SensWear_Panel_V1R0.PcbDoc
+OutputDocumentPath6=SensWear_SensorPanel_V1R1.PcbDoc
 OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
@@ -134,7 +134,7 @@ Configuration6_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|Ge
 OutputType7=Assembly
 OutputName7=Assembly Drawings
 OutputCategory7=Assembly
-OutputDocumentPath7=SensWear_Panel_V1R0.PcbDoc
+OutputDocumentPath7=SensWear_SensorPanel_V1R1.PcbDoc
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -280,7 +280,7 @@ PcbPrintPreferences7=
 OutputType8=PCBDrawing
 OutputName8=Draftsman
 OutputCategory8=Documentation
-OutputDocumentPath8=SensWear_Panel_V1R0.PCBDwf
+OutputDocumentPath8=SensWear_SensorPanel_V1R1.PCBDwf
 OutputVariantName8=
 OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
@@ -292,7 +292,7 @@ OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [PublishSettings]
-OutputFilePath2=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Panel\Output\Manufacturing\Assembly\
+OutputFilePath2=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Panel\Output\Manufacturing\Assembly\
 ReleaseManaged2=0
 OutputBasePath2=.\Output\Manufacturing\
 OutputPathMedia2=[Media Name]
@@ -305,7 +305,7 @@ OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
 OpenOutput2=1
-OutputFilePath3=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Panel\Output\Manufacturing\Fabrication\
+OutputFilePath3=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Panel\Output\Manufacturing\Fabrication\
 ReleaseManaged3=0
 OutputBasePath3=Output\Manufacturing\
 OutputPathMedia3=[Media Name]
@@ -360,7 +360,7 @@ PDFACompliance5=Disabled
 PDFVersion5=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Panel\Output\Manufacturing\Assembly\
+RelativeOutputPath2=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Panel\Output\Manufacturing\Assembly\
 OpenOutputs2=1
 AddToProject2=1
 TimestampFolder2=0
@@ -370,7 +370,7 @@ OpenGerberOutput2=0
 OpenNCDrillOutput2=0
 OpenIPCOutput2=0
 EnableReload2=0
-RelativeOutputPath3=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Panel\Output\Manufacturing\Fabrication\
+RelativeOutputPath3=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Panel\Output\Manufacturing\Fabrication\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0

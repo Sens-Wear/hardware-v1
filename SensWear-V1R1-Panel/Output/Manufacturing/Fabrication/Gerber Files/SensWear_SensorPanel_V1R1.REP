@@ -1,0 +1,305 @@
+*************************************************************
+FileName = SensWear_SensorPanel_V1R1.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Pad Master
+      File : SensWear_Panel_V1R0.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D16
+    D24
+    D25
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : SensWear_Panel_V1R0.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D15
+    D16
+    D18
+    D22
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : SensWear_Panel_V1R0.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D14
+    D19
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : SensWear_Panel_V1R0.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D15
+    D16
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : SensWear_Panel_V1R0.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D16
+    D18
+    D24
+    D25
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : SensWear_Panel_V1R0.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D24
+    D25
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D35
+    D36
+    D37
+    D38
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : SensWear_Panel_V1R0.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D16
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : SensWear_Panel_V1R0.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D13
+    D14
+    D17
+    D19
+    D21
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : SensWear_Panel_V1R0.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Fab Notes
+      File : SensWear_Panel_V1R0.GM2
+
+    Adding Layer      : Fab Notes
+
+
+Used DCodes :
+    D13
+    D19
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : Mate2DPro_Debug.GM
+
+
+Used DCodes :
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : SensWear_Panel_V1R0.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Layer 1
+      File : SensWear_Panel_V1R0.G1
+
+    Adding Layer      : Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Layer 2
+      File : SensWear_Panel_V1R0.G2
+
+    Adding Layer      : Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : SensWear_Panel_V1R0.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D16
+    D17
+    D19
+    D20
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+*************************************************************
+
