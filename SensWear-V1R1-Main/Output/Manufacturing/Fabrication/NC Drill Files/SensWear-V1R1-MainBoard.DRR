@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: SensWear-V1R1-MainBoard.PcbDoc   1/5/2026  3:14:39 PM
+NCDrill File Report For: SensWear-V1R1-MainBoard.PcbDoc   3/22/2026  3:59:44 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,8 +7,8 @@ ASCII Plated RoundHoles File : SensWear-V1R1-MainBoard-Plated.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.15mm (6mil)                                             Round             106       PTH        151.32mm (5.96inch)
+T1      0.15mm (6mil)                                             Round             109       PTH        169.26mm (6.66inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              106
+Totals                                                                              109
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01

@@ -2,119 +2,6 @@
 FileName = SensWear-V1R1-MainBoard.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Overlay
-      File : SensWear-V1R1-MainBoard.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D11
-    D12
-    D15
-    D40
-    D55
-    D56
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : SensWear-V1R1-MainBoard.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : SensWear-V1R1-MainBoard.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D30
-    D33
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : SensWear-V1R1-MainBoard.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D30
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D51
-    D52
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : SensWear-V1R1-MainBoard.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D19
-    D20
-    D21
-    D22
-    D23
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-*************************************************************
-
-*************************************************************
 Generating : Top Paste
       File : SensWear-V1R1-MainBoard.GTP
 
@@ -145,53 +32,55 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : SensWear-V1R1-MainBoard.GTO
+Generating : Mechanical 1
+      File : SensWear-V1R1-MainBoard.GM1
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Mechanical 1
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
     D16
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : SensWear-V1R1-MainBoard.GBL
+Generating : Profile
+      File : SensWear-V1R1-MainBoard.GM
 
-    Adding Layer      : Bottom Layer
+
+Used DCodes :
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Layer 1
+      File : SensWear-V1R1-MainBoard.G1
+
+    Adding Layer      : Layer 1
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D10
-    D13
-    D14
-    D16
-    D18
-    D30
+    D11
     D34
-    D37
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : SensWear-V1R1-MainBoard.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D12
+    D15
+    D39
+    D55
+    D56
 *************************************************************
 
 *************************************************************
@@ -210,18 +99,80 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Layer 1
-      File : SensWear-V1R1-MainBoard.G1
+Generating : Bottom Layer
+      File : SensWear-V1R1-MainBoard.GBL
 
-    Adding Layer      : Layer 1
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D10
-    D11
+    D13
+    D14
+    D16
+    D19
+    D30
     D34
+    D37
+    D39
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : SensWear-V1R1-MainBoard.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D30
+    D41
+    D42
+    D43
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : SensWear-V1R1-MainBoard.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
 *************************************************************
 
 *************************************************************
@@ -262,11 +213,61 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Profile
-      File : Mate2DPro_Debug.GM
+Generating : Top Solder
+      File : SensWear-V1R1-MainBoard.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D57
+    D17
+    D18
+    D20
+    D21
+    D22
+    D23
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : SensWear-V1R1-MainBoard.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D30
+    D33
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
 *************************************************************
 
