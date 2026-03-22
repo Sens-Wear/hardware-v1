@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: SensWear_SensorPanel_V1R1.GBR   3/22/2026  2:14:55 PM
+Gerber File Extension Report For: SensWear_SensorPanel_V1R1.GBR   3/22/2026  3:18:27 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -18,7 +18,6 @@ Layer Extension     Layer Description
 .GBO                Bottom Overlay                          
 .GM1                Mechanical 1                            
 .GM2                Fab Notes                               
-.GPT                Top Pad Master                          
-.GPB                Bottom Pad Master                       
+.GKO                Keep-Out Layer                          
 .GM                 Profile                                 
 ------------------------------------------------------------------------------------------
