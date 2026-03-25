@@ -235,6 +235,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SAQNPBVJ
 
+[Document12]
+DocumentPath=Sch\SensWear_Debug_Title.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YVEWXYCD
+
 [GeneratedDocument1]
 DocumentPath=Output\Manufacturing\Assembly\Bill of Materials\Bill of Materials-SensWear_Debug.xlsx
 DItemRevisionGUID=
@@ -332,30 +349,34 @@ DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Debug.REP
 DItemRevisionGUID=
 
 [Parameter1]
-Name=RevisionDate
-Value=01.05.2025
+Name=Version
+Value=1.0
 
 [Parameter2]
+Name=RevisionDate
+Value=01.03.2026
+
+[Parameter3]
 Name=Revision
 Value=B0
 
-[Parameter3]
+[Parameter4]
 Name=Project
 Value=SenseWare-V1R1
 
-[Parameter4]
+[Parameter5]
 Name=Engineer
 Value=Yusein Ali
 
-[Parameter5]
+[Parameter6]
 Name=DrawnBy
 Value=Yusein Ali
 
-[Parameter6]
-Name=BoardName
-Value=SensWear-Debug-RevB
-
 [Parameter7]
+Name=BoardName
+Value=SensWear-Debug
+
+[Parameter8]
 Name=ApprovedBy
 Value=Dariush Salami
 
@@ -941,36 +962,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
