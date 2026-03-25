@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=SensWear_Debug_Manufacturing.OutJob
 Description=
-TargetOutputMedium=New PDF
+TargetOutputMedium=Schematics
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -33,8 +33,10 @@ OutputMedium3=Fabrication
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=BoardStack
 OutputMedium4_Type=GeneratedFiles
-OutputMedium5=New PDF
+OutputMedium5=AssemblyDrawing
 OutputMedium5_Type=Publish
+OutputMedium6=Schematics
+OutputMedium6_Type=Publish
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
 OutputCategory1=Fabrication
@@ -46,6 +48,7 @@ OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=1
 OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -61,6 +64,7 @@ OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 PcbPrintPreferences2=
@@ -75,6 +79,7 @@ OutputEnabled3_OutputMedium2=1
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration3_Name1=ColumnNameFormat
@@ -100,6 +105,7 @@ OutputEnabled4_OutputMedium2=2
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|DocumentPath=D:\WORK\Projects\BiyomodDevelopment\Repositories\PingBit\Mate2DPro\Hardware\WeBreath\PCB\WeBreath.PcbDoc
@@ -114,6 +120,7 @@ OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
 OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration5_Name1=OutputConfigurationParameter1
@@ -260,6 +267,7 @@ OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=0
 OutputEnabled6_OutputMedium5=1
+OutputEnabled6_OutputMedium6=2
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType7=Gerber
@@ -273,6 +281,7 @@ OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=1
 OutputEnabled7_OutputMedium4=0
 OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium6=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=LEGQTNBI|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777218~1,16777221~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908290~1|PlotBoardProfile=True|PlotBoardProfileFileName=SensWear-V1R1-Debug.GM|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName=SensWear-V1R1-Debug.GD1|UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillDrawingLayerPair1_Backdrill=False|UncheckPlotDrillDrawingLayerPair1_Checked=False|UncheckPlotDrillDrawingLayerPair1_DrillType=MicroViaDrill|UncheckPlotDrillDrawingLayerPair1_FileName=SensWear-V1R1-Debug.GD2|UncheckPlotDrillDrawingLayerPair1_HighLayer=Mid Layer 1|UncheckPlotDrillDrawingLayerPair1_LowLayer=Top Layer|UncheckPlotDrillDrawingLayerPair2_Backdrill=False|UncheckPlotDrillDrawingLayerPair2_Checked=False|UncheckPlotDrillDrawingLayerPair2_DrillType=MicroViaDrill|UncheckPlotDrillDrawingLayerPair2_FileName=SensWear-V1R1-Debug.GD3|UncheckPlotDrillDrawingLayerPair2_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair2_LowLayer=Mid Layer 4|UncheckPlotDrillDrawingLayerPair3_Backdrill=False|UncheckPlotDrillDrawingLayerPair3_Checked=False|UncheckPlotDrillDrawingLayerPair3_DrillType=Regular|UncheckPlotDrillDrawingLayerPair3_FileName=SensWear-V1R1-Debug.GD4|UncheckPlotDrillDrawingLayerPair3_HighLayer=Mid Layer 4|UncheckPlotDrillDrawingLayerPair3_LowLayer=Top Layer|UncheckPlotDrillDrawingLayerPair4_Backdrill=False|UncheckPlotDrillDrawingLayerPair4_Checked=False|UncheckPlotDrillDrawingLayerPair4_DrillType=Regular|UncheckPlotDrillDrawingLayerPair4_FileName=SensWear-V1R1-Debug.GD5|UncheckPlotDrillDrawingLayerPair4_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair4_LowLayer=Mid Layer 1|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName=SensWear-V1R1-Debug.GG1|UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair1_Backdrill=False|UncheckPlotDrillGuideLayerPair1_Checked=False|UncheckPlotDrillGuideLayerPair1_DrillType=MicroViaDrill|UncheckPlotDrillGuideLayerPair1_FileName=SensWear-V1R1-Debug.GG2|UncheckPlotDrillGuideLayerPair1_HighLayer=Mid Layer 1|UncheckPlotDrillGuideLayerPair1_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair2_Backdrill=False|UncheckPlotDrillGuideLayerPair2_Checked=False|UncheckPlotDrillGuideLayerPair2_DrillType=MicroViaDrill|UncheckPlotDrillGuideLayerPair2_FileName=SensWear-V1R1-Debug.GG3|UncheckPlotDrillGuideLayerPair2_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair2_LowLayer=Mid Layer 4|UncheckPlotDrillGuideLayerPair3_Backdrill=False|UncheckPlotDrillGuideLayerPair3_Checked=False|UncheckPlotDrillGuideLayerPair3_DrillType=Regular|UncheckPlotDrillGuideLayerPair3_FileName=SensWear-V1R1-Debug.GG4|UncheckPlotDrillGuideLayerPair3_HighLayer=Mid Layer 4|UncheckPlotDrillGuideLayerPair3_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair4_Backdrill=False|UncheckPlotDrillGuideLayerPair4_Checked=False|UncheckPlotDrillGuideLayerPair4_DrillType=Regular|UncheckPlotDrillGuideLayerPair4_FileName=SensWear-V1R1-Debug.GG5|UncheckPlotDrillGuideLayerPair4_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair4_LowLayer=Mid Layer 1|UserLayerName.Caption0=SensWear-V1R1-Debug.GKO|UserLayerName.Caption1=SensWear-V1R1-Debug.GTP|UserLayerName.Caption10=SensWear-V1R1-Debug.GBS|UserLayerName.Caption11=SensWear-V1R1-Debug.GM7|UserLayerName.Caption12=SensWear-V1R1-Debug.GM6|UserLayerName.Caption13=SensWear-V1R1-Debug.GM16|UserLayerName.Caption14=SensWear-V1R1-Debug.GM29|UserLayerName.Caption15=SensWear-V1R1-Debug.GBL|UserLayerName.Caption16=SensWear-V1R1-Debug.GM5|UserLayerName.Caption17=SensWear-V1R1-Debug.GM15|UserLayerName.Caption18=SensWear-V1R1-Debug.GM30|UserLayerName.Caption19=SensWear-V1R1-Debug.GTL|UserLayerName.Caption2=SensWear-V1R1-Debug.GTO|UserLayerName.Caption20=SensWear-V1R1-Debug.GBO|UserLayerName.Caption21=SensWear-V1R1-Debug.GPT|UserLayerName.Caption22=SensWear-V1R1-Debug.GM13|UserLayerName.Caption23=SensWear-V1R1-Debug.GM9|UserLayerName.Caption24=SensWear-V1R1-Debug.GM11|UserLayerName.Caption25=SensWear-V1R1-Debug.GM1|UserLayerName.Caption26=SensWear-V1R1-Debug.GM24|UserLayerName.Caption27=SensWear-V1R1-Debug.GM8|UserLayerName.Caption28=SensWear-V1R1-Debug.G2|UserLayerName.Caption29=SensWear-V1R1-Debug.GM3|UserLayerName.Caption3=SensWear-V1R1-Debug.GTS|UserLayerName.Caption30=SensWear-V1R1-Debug.GBP|UserLayerName.Caption4=SensWear-V1R1-Debug.GM4|UserLayerName.Caption5=SensWear-V1R1-Debug.GM2|UserLayerName.Caption6=SensWear-V1R1-Debug.GM12|UserLayerName.Caption7=SensWear-V1R1-Debug.GPB|UserLayerName.Caption8=SensWear-V1R1-Debug.G1|UserLayerName.Caption9=SensWear-V1R1-Debug.GM10|UserLayerName.Count=31|UserLayerName.Layer0=16973837|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16973835|UserLayerName.Layer11=16908295|UserLayerName.Layer12=16908294|UserLayerName.Layer13=16908304|UserLayerName.Layer14=16908317|UserLayerName.Layer15=16842751|UserLayerName.Layer16=16908293|UserLayerName.Layer17=16908303|UserLayerName.Layer18=16908318|UserLayerName.Layer19=16777217|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16973831|UserLayerName.Layer21=16973848|UserLayerName.Layer22=16908301|UserLayerName.Layer23=16908297|UserLayerName.Layer24=16908299|UserLayerName.Layer25=16908289|UserLayerName.Layer26=16908312|UserLayerName.Layer27=16908296|UserLayerName.Layer28=16777221|UserLayerName.Layer29=16908291|UserLayerName.Layer3=16973834|UserLayerName.Layer30=16973833|UserLayerName.Layer4=16908292|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16908300|UserLayerName.Layer7=16973849|UserLayerName.Layer8=16777218|UserLayerName.Layer9=16908298|DocumentPath=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\PCB\SensWear-V1R1-Debug.PcbDoc
@@ -287,9 +296,26 @@ OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=2
 OutputEnabled8_OutputMedium4=0
 OutputEnabled8_OutputMedium5=0
+OutputEnabled8_OutputMedium6=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\PCB\SensWear-V1R1-Debug.PcbDoc
+OutputType9=Schematic Print
+OutputName9=Schematic Prints
+OutputCategory9=Documentation
+OutputDocumentPath9=
+OutputVariantName9=
+OutputEnabled9=1
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=0
+OutputEnabled9_OutputMedium5=0
+OutputEnabled9_OutputMedium6=1
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=All SCH Documents
 
 [PublishSettings]
 OutputFilePath2=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\Output\Manufacturing\Assembly\
@@ -358,6 +384,33 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
+OutputFilePath6=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\Output\SensWear_Debug_Manufacturing.PDF
+ReleaseManaged6=0
+OutputBasePath6=Output\
+OutputPathMedia6=
+OutputPathMediaValue6=
+OutputPathOutputer6=[Output Type]
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=
+OutputFileName6=SensWear_Debug_Schematics.PDF
+OutputFileNameMulti6=
+UseOutputNameForMulti6=0
+OutputFileNameSpecial6=
+OpenOutput6=1
+PromptOverwrite6=1
+PublishMethod6=0
+ZoomLevel6=50
+FitSCHPrintSizeToDoc6=1
+FitPCBPrintSizeToDoc6=1
+GenerateNetsInfo6=1
+MarkPins6=1
+MarkNetLabels6=1
+MarkPortsId6=1
+GenerateTOC6=1
+ShowComponentParameters6=1
+GlobalBookmarks6=0
+PDFACompliance6=Disabled
+PDFVersion6=Default
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\Output\Manufacturing\Assembly\
@@ -392,4 +445,6 @@ OpenIPCOutput4=0
 EnableReload4=0
 RelativeOutputPath5=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Debug\Output\Manufacturing\Assembly\SensWear_Debug_Manufacturing.PDF
 OpenOutputs5=1
+RelativeOutputPath6=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\Output\SensWear_Debug_Manufacturing.PDF
+OpenOutputs6=1
 

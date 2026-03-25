@@ -4,13 +4,14 @@ D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\Output\Manufacturing\Asse
 ========================================================================================================================
 File Design Information:
 
-Date:       22/03/26
-Time:       15:26
-Revision:   7814f89def61b2ecff3e2f497d3e00ebc170ca49
+Date:       25/03/26
+Time:       14:31
+Revision:   0aaf14e9861d2e0b89bbfe349b000bad2ea5b9f6
 Variant:    No variations
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"D81","MBR140SFT1G","BottomLayer","SODFL360X110-2N","3.5500","11.8750","270","DIODE SCHOTTKY 40V 1A SOD123L"
 "USB80","DX07S024JJ3R1300","TopLayer","JAE-DX07S024JJ3R1300-MFG","36.4500","17.5000","90","Cut Tape - Usb Type C Receptacle Mid Mnt Dual R"
 "U80","FT232RL","BottomLayer","SOP65P780X200-28N","27.2000","17.5000","270","IC USB FS SERIAL UART 28-SSOP"
 "SWD80B","SSQ-106-23-F-S","TopLayer","FP-SSQ-106-23-F-S-MFG","14.3000","12.3000","180","Headers & Wire Housings Tiger Buy Socket Strip with Square Tails, 0.100 Pitch"
