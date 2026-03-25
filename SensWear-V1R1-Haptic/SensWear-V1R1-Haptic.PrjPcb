@@ -114,39 +114,60 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SAQNPBVJ
+
+[Document5]
+DocumentPath=Schematics\SensWear_Haptic-Title.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MKHQCNIE
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for SensWear-V1R1-Haptic\Design Rule Check - SensWear-V1R1-Haptic.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ApprovedBy
-Value=Dariush Salami
+Name=Version
+Value=1
 
 [Parameter2]
-Name=BoardName
-Value=SensWear-Haptic-RevA
+Name=RevisionDate
+Value=01.03.2026
 
 [Parameter3]
-Name=DrawnBy
-Value=Yusein Ali
+Name=Revision
+Value=B0
 
 [Parameter4]
+Name=Project
+Value=SensWear-V1R1
+
+[Parameter5]
 Name=Engineer
 Value=Yusein Ali
 
-[Parameter5]
-Name=Project
-Value=SensWear-V1R0
-
 [Parameter6]
-Name=Revision
-Value=A0
+Name=DrawnBy
+Value=Yusein Ali
 
 [Parameter7]
-Name=RevisionDate
-Value=01.05.2025
+Name=BoardName
+Value=SensWear-Haptic
+
+[Parameter8]
+Name=ApprovedBy
+Value=Dariush Salami
 
 [Configuration1]
 Name=Sources
@@ -768,36 +789,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
