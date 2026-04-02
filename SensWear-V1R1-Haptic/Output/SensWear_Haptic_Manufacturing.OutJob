@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=SensWear_Haptic_Manufacturing.OutJob
 Description=
-TargetOutputMedium=Schematics
+TargetOutputMedium=Documentation
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -35,7 +35,7 @@ OutputMedium4=BoardStack
 OutputMedium4_Type=GeneratedFiles
 OutputMedium5=AssemblyDrawing
 OutputMedium5_Type=Publish
-OutputMedium6=Schematics
+OutputMedium6=Documentation
 OutputMedium6_Type=Publish
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -287,17 +287,17 @@ Configuration7_Name66=OutputConfigurationParameter66
 Configuration7_Item66=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical30|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
 PcbPrintPreferences7=
 OutputType8=PCBDrawing
-OutputName8=Draftsman
+OutputName8=TOC
 OutputCategory8=Documentation
-OutputDocumentPath8=SensWear-V1R1-Haptic.PCBDwf
+OutputDocumentPath8=SensWear-V1R1-Haptic_TOC.PCBDwf
 OutputVariantName8=
 OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
 OutputEnabled8_OutputMedium4=0
-OutputEnabled8_OutputMedium5=1
-OutputEnabled8_OutputMedium6=2
+OutputEnabled8_OutputMedium5=0
+OutputEnabled8_OutputMedium6=1
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType9=Schematic Print
@@ -311,9 +311,25 @@ OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
 OutputEnabled9_OutputMedium4=0
 OutputEnabled9_OutputMedium5=0
-OutputEnabled9_OutputMedium6=1
+OutputEnabled9_OutputMedium6=2
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.94|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Haptic\Schematics\SensWear_Haptic.SchDoc
+OutputType10=PCBDrawing
+OutputName10=Assembly
+OutputCategory10=Documentation
+OutputDocumentPath10=SensWear-V1R1-Haptic-Assembly.PCBDwf
+OutputVariantName10=
+OutputEnabled10=1
+OutputEnabled10_OutputMedium1=0
+OutputEnabled10_OutputMedium2=0
+OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium4=0
+OutputEnabled10_OutputMedium5=1
+OutputEnabled10_OutputMedium6=3
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [PublishSettings]
 OutputFilePath2=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Haptic\Output\Manufacturing\Assembly\
@@ -382,7 +398,7 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
-OutputFilePath6=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Haptic\Output\SensWear_Haptic_Manufacturing.PDF
+OutputFilePath6=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Haptic\Output\Documentation.PDF
 ReleaseManaged6=0
 OutputBasePath6=Output\
 OutputPathMedia6=
@@ -390,7 +406,7 @@ OutputPathMediaValue6=
 OutputPathOutputer6=[Output Type]
 OutputPathOutputerPrefix6=
 OutputPathOutputerValue6=
-OutputFileName6=Schematics.PDF
+OutputFileName6=SensWear_Haptic_Documentation.PDF
 OutputFileNameMulti6=
 UseOutputNameForMulti6=0
 OutputFileNameSpecial6=
@@ -443,6 +459,6 @@ OpenIPCOutput4=0
 EnableReload4=0
 RelativeOutputPath5=D:\WORK\Projects\SensWear\Hardware\SensWear-V1R0-Haptic\Output\Manufacturing\Assembly\Mate2D_v2_Haptic_Manufacturing.PDF
 OpenOutputs5=1
-RelativeOutputPath6=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Haptic\Output\SensWear_Haptic_Manufacturing.PDF
+RelativeOutputPath6=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Haptic\Output\Documentation.PDF
 OpenOutputs6=1
 

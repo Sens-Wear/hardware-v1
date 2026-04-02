@@ -1,12 +1,18 @@
 Protel Design System Design Rule Check
 PCB File : D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-PPG\PCB\SensWear-V1R1-PPG.PcbDoc
-Date     : 3/21/2026
-Time     : 10:50:44 PM
+Date     : 4/2/2026
+Time     : 10:42:00 AM
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (IsTrack),(IsBGA)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.2mm) (IsTrack),(IsBGA)
+Processing Rule : Clearance Constraint (Gap=0.1mm) (Disabled)(IsTrack or IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.22mm) (IsTrack),(IsPad)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -18,10 +24,10 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.076mm) (Max=0.254mm) (Preferred=0.254mm) (IsTrack and HasParameter('Impedance') and HasParameterValue('Impedance', '50'))
+Processing Rule : Width Constraint (Min=0.076mm) (Max=1mm) (Preferred=0.1mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.076mm) (Max=1mm) (Preferred=0.1mm) (All)
+Processing Rule : Width Constraint (Min=0.076mm) (Max=0.254mm) (Preferred=0.254mm) (IsTrack and HasParameter('Impedance') and HasParameterValue('Impedance', '50'))
 Rule Violations :0
 
 Processing Rule : Routing Layers(All)
@@ -66,4 +72,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:00
