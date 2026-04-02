@@ -203,7 +203,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=SensWear_Debug.PCBDwf
+DocumentPath=SensWear-V1R1-Debug-Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -220,23 +220,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SAQNPBVJ
 
 [Document11]
-DocumentPath=Sch\SensWear_Debug_Title.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YVEWXYCD
-
-[Document12]
 DocumentPath=Output\SensWear_Debug_Manufacturing.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=SensWear-V1R1-Debug-TOC.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
