@@ -1,5 +1,7 @@
 # SensWear Hardware
 
+![SensWear hardware boards](Images/Boards.png)
+
 SensWear is a modular wearable sensing platform. This repository contains the Altium Designer source files, reusable component libraries, PCB layouts, schematics, generated documentation, and manufacturing outputs for the SensWear V1R1 hardware.
 
 The design is split into a main board and several function-specific boards so that each part of the system can be developed, reviewed, manufactured, and tested independently. A multi-board project is also included to support system-level integration.
