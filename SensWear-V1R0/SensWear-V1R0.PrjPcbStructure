@@ -1,9 +1,0 @@
-Record=TopLevelDocument|FileName=SensWear-Main.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=SensWear-Main.SchDoc|FileName=SensWear_DaughterBoard.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=SensWear-Main.SchDoc|FileName=SensWear_Debug.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=SensWear-Main.SchDoc|FileName=SensWear_MCU.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=SensWear-Main.SchDoc|FileName=SensWear_Memory.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=SensWear-Main.SchDoc|FileName=SensWear_MPU.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=SensWear-Main.SchDoc|FileName=SensWear_Power.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=SensWear-Main.SchDoc|FileName=SensWear_RGB.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=SensWear-Main.SchDoc|FileName=SensWear_TitlePage.SchDoc|SheetNumber=8

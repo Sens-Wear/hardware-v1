@@ -1,8 +1,0 @@
-Record=DiagramHierarchy|SourceDocument=SensWear_Boards.MbsDoc|Kind=Multi-board Schematic Module|Designator=DB2|Source=..\..\SensWear-V1R0-Haptic\SensWear-V1R0-Haptic.PrjPcb
-Record=SubProject|SourceDocument=SensWear_Boards.MbsDoc|ProjectPath=..\..\SensWear-V1R0-Haptic\SensWear-V1R0-Haptic.PrjPcb
-Record=DiagramHierarchy|SourceDocument=SensWear_Boards.MbsDoc|Kind=Multi-board Schematic Module|Designator=DB3|Source=..\..\SensWear-V1R0-PPG\SensWear-V1R0-PPG.PrjPcb
-Record=SubProject|SourceDocument=SensWear_Boards.MbsDoc|ProjectPath=..\..\SensWear-V1R0-PPG\SensWear-V1R0-PPG.PrjPcb
-Record=DiagramHierarchy|SourceDocument=SensWear_Boards.MbsDoc|Kind=Multi-board Schematic Module|Designator=DB1|Source=..\..\SensWear-V1R0-Touch\SensWear-V1R0-Touch.PrjPcb
-Record=SubProject|SourceDocument=SensWear_Boards.MbsDoc|ProjectPath=..\..\SensWear-V1R0-Touch\SensWear-V1R0-Touch.PrjPcb
-Record=DiagramHierarchy|SourceDocument=SensWear_Boards.MbsDoc|Kind=Multi-board Schematic Module|Designator=MB1|Source=..\SensWear-V1R0.PrjPcb
-Record=SubProject|SourceDocument=SensWear_Boards.MbsDoc|ProjectPath=..\SensWear-V1R0.PrjPcb

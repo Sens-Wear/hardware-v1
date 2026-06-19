@@ -1,8 +1,0 @@
-Record=DiagramHierarchy|SourceDocument=OpenRing_Boards.MbsDoc|Kind=Multi-board Schematic Module|Designator=DB2|Source=..\..\OpenRing-V1R0-Haptic\OpenRing-V1R0-Haptic.PrjPcb
-Record=SubProject|SourceDocument=OpenRing_Boards.MbsDoc|ProjectPath=..\..\OpenRing-V1R0-Haptic\OpenRing-V1R0-Haptic.PrjPcb
-Record=DiagramHierarchy|SourceDocument=OpenRing_Boards.MbsDoc|Kind=Multi-board Schematic Module|Designator=DB3|Source=..\..\OpenRing-V1R0-PPG\OpenRing-V1R0-PPG.PrjPcb
-Record=SubProject|SourceDocument=OpenRing_Boards.MbsDoc|ProjectPath=..\..\OpenRing-V1R0-PPG\OpenRing-V1R0-PPG.PrjPcb
-Record=DiagramHierarchy|SourceDocument=OpenRing_Boards.MbsDoc|Kind=Multi-board Schematic Module|Designator=DB1|Source=..\..\OpenRing-V1R0-Touch\OpenRing-V1R0-Touch.PrjPcb
-Record=SubProject|SourceDocument=OpenRing_Boards.MbsDoc|ProjectPath=..\..\OpenRing-V1R0-Touch\OpenRing-V1R0-Touch.PrjPcb
-Record=DiagramHierarchy|SourceDocument=OpenRing_Boards.MbsDoc|Kind=Multi-board Schematic Module|Designator=MB1|Source=..\OpenRing-V1R0.PrjPcb
-Record=SubProject|SourceDocument=OpenRing_Boards.MbsDoc|ProjectPath=..\OpenRing-V1R0.PrjPcb
