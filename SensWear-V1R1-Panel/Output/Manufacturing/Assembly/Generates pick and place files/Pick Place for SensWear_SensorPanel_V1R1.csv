@@ -4,14 +4,14 @@ D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Panel\Output\Manufacturing\Asse
 ========================================================================================================================
 File Design Information:
 
-Date:       22/03/26
-Time:       14:15
-Revision:   7814f89def61b2ecff3e2f497d3e00ebc170ca49
+Date:       02/04/26
+Time:       15:11
+Revision:   50ae379abfa1da075a3439ff5817e983754af2a9
 Variant:    No variations
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
-"U60","MAX30208CLB+T","BottomLayer","FP-L1022-2-MFG","80.6749","109.7250","360","I2C Digital Temperature Sensor Serial I2C 10-Pin Thin LGA T/R"
+"U60","MAX30208CLB+T","BottomLayer","FP-L1022-2-MFG","80.5250","109.7250","360","I2C Digital Temperature Sensor Serial I2C 10-Pin Thin LGA T/R"
 "C60","0.1 uF","TopLayer","CAPC1005X05N","80.6749","109.4000","360","CAP CER 0.1UF 16V X5R 0402"
 "CONN60","NC","TopLayer","51281-1098-PCB","71.4000","109.7250","360",""
 "P50","51281-1098","BottomLayer","51281-1098","49.2540","109.5310","90","FFC/FPC Connector, Surface Mount, Right-Angle, Non-ZIF, Dual Contact Style"
@@ -24,14 +24,14 @@ Units used: mm
 "C52","10uF","TopLayer","CAPC1005X05N","58.5040","112.7810","90","Multilayer Ceramic Capacitor, 10 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
 "C51","10uF","TopLayer","CAPC1005X05N","57.6290","112.7810","270","Multilayer Ceramic Capacitor, 10 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
 "P40","51281-1098","BottomLayer","51281-1098","41.5650","109.5950","270","FFC/FPC Connector, Surface Mount, Right-Angle, Non-ZIF, Dual Contact Style"
-"C44","4.7uF","TopLayer","CAPC1005X05N","42.5150","106.0950","180","Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
-"C43","4.7uF","TopLayer","CAPC1005X05N","42.5150","106.9950","180","Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
-"C40","4.7uF","TopLayer","CAPC1005X05N","40.6150","112.5950","90","Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
+"C44","4.7uF","TopLayer","CAPC1005X05N","39.4650","106.1200","0","Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
+"C43","4.7uF","TopLayer","CAPC1005X05N","39.4650","106.9950","0","Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
+"C40","4.7uF","TopLayer","CAPC1005X05N","39.4900","112.3200","180","Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 20%, X5R, 0402 [1005 Metric]"
 "CONN40","NC","TopLayer","51281-1098-PCB","29.8150","109.6200","0",""
-"U40","DRV2605LYZFR","TopLayer","BGA9C50P3X3_144X144X62","41.0150","109.4950","180","Haptic driver for ERM/LRA with 2-V operation, waveform library & auto-resonance tracking 9-DSBGA -40 to 85"
-"M40","G0832012","BottomLayer","G0832012","38.4150","109.5450","90","VIBRATION MOTOR 1.8V"
-"C42","0.47 uF","TopLayer","CAPC1005X05N","41.5150","112.5950","90","CAP CER 0.47UF 10V X5R 0402"
-"C41","1 uF","TopLayer","CAPC1005X05N","42.5150","107.8950","180","CAP CER 1UF 10V X5R 0402"
+"U40","DRV2605LDGSR","TopLayer","TSSOP50P490X110-10N","42.1150","109.9200","270","NEXT GEN DRV260X LRA/ERM DRIVER"
+"M40","G0832012","BottomLayer","G0832012","38.4150","109.6200","90","VIBRATION MOTOR 1.8V"
+"C42","0.47 uF","TopLayer","CAPC1005X05N","43.6150","106.1200","0","CAP CER 0.47UF 10V X5R 0402"
+"C41","1 uF","TopLayer","CAPC1005X05N","39.4900","113.2200","0","CAP CER 1UF 10V X5R 0402"
 "Touch","NC","TopLayer","TOUCH-15CH-LINEAR","56.4380","100.2040","0",""
 "R71","1.5 k","BottomLayer","RESC1005X04N","38.5630","97.6040","180","RES SMD 1.5K OHM 1% 1/10W 0402"
 "R72","1.5 k","BottomLayer","RESC1005X04N","38.5630","98.4395","180","RES SMD 1.5K OHM 1% 1/10W 0402"
