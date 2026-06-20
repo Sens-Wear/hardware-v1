@@ -1,7 +1,7 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=Components\SensWearComponents.LibPkg
+ProjectPath=SensWearComponentsLibrary_20260620_114605\SensWearComponents.LibPkg
 [Project2]
 ProjectPath=SensWear_V1R1\SensWear_V1R1.PrjMbd
 [Project3]
