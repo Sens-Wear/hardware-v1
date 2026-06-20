@@ -230,6 +230,8 @@ VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
 ProjectName=SensWear-V1R2-Debug.PrjPcb
+VaultURL=
+VaultName=
 
 [OutputGroup1]
 Name=Netlist Outputs

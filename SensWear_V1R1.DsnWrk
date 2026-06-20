@@ -1,7 +1,7 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=SensWearComponentsLibrary_20260620_114605\SensWearComponents.LibPkg
+ProjectPath=SensWearComponentsLibrary\SensWearComponents.LibPkg
 [Project2]
 ProjectPath=SensWear_V1R1\SensWear_V1R1.PrjMbd
 [Project3]
@@ -18,3 +18,5 @@ ProjectPath=SensWear-V1R1-Temperature\SensWear-V1R1-Temperature.PrjPcb
 ProjectPath=SensWear-V1R1-Touch\SensWear-V1R1-Touch.PrjPcb
 [Project9]
 ProjectPath=SensWear-V1R1-Panel\SensWear-V1R1-SensorPanel.PrjPcb
+[Project10]
+ProjectPath=SensWear-V1R2-Debug\SensWear-V1R2-Debug.PrjPcb
