@@ -1,9 +1,9 @@
 ﻿[Design]
 Version=1.0
 HierarchyMode=0
-ChannelRoomNamingStyle=0
+ChannelRoomNamingStyle=2
 ReleasesFolder=
-ChannelDesignatorFormatString=$Component_$RoomName
+ChannelDesignatorFormatString=$Component$ChannelAlpha
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
@@ -11,19 +11,19 @@ TimestampOutput=0
 SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
-PinSwapBy_Pin=1
+PinSwapBy_Pin=0
 AllowPortNetNames=0
-AllowSheetEntryNetNames=1
-AppendSheetNumberToLocalNets=0
+AllowSheetEntryNetNames=0
+AppendSheetNumberToLocalNets=1
 NetlistSinglePinNets=0
-DefaultConfiguration=Default - All Constraints
+DefaultConfiguration=Sources
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
-PowerPortNamesTakePriority=0
-AutoSheetNumbering=1
+NameNetsHierarchically=1
+PowerPortNamesTakePriority=1
+AutoSheetNumbering=0
 AutoCrossReferences=1
 NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
@@ -40,23 +40,23 @@ ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=0
 CrossRefLocationStyle=0
-CrossRefPorts=3
-CrossRefCrossSheets=1
+CrossRefPorts=0
+CrossRefCrossSheets=0
 CrossRefSheetEntries=0
-CrossRefFollowFromMainSettings=1
+CrossRefFollowFromMainSettings=0
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\SensWear-V1R1-Main\SensWear-V1R1.PrjPcb
+DocumentPath=Sch\SensWear_Debug_Main.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=80
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -64,22 +64,16 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-VaultGUID=
-ManagedProjectGUID=
-RevisionGUID=
-ProjectName=SensWear-V1R1.PrjPcb
-VaultURL=
-VaultName=
+DocumentUniqueId=KPNELWXS
 
 [Document2]
-DocumentPath=..\SensWear-V1R1-Debug\SensWear-V1R1-Debug.PrjPcb
+DocumentPath=Sch\SensWear_Debug_DEBUG.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=80
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -87,16 +81,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-VaultGUID=
-ManagedProjectGUID=
-RevisionGUID=
-ProjectName=SensWear-V1R1-Debug.PrjPcb
-VaultURL=
-VaultName=
+DocumentUniqueId=HSDAXIFT
 
 [Document3]
-DocumentPath=..\SensWear-V1R1-Haptic\SensWear-V1R1-Haptic.PrjPcb
+DocumentPath=PCB\SensWear-V1R2-Debug.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -110,16 +98,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-VaultGUID=
-ManagedProjectGUID=
-RevisionGUID=
-ProjectName=SensWear-V1R1-Haptic.PrjPcb
-VaultURL=
-VaultName=
+DocumentUniqueId=LEGQTNBI
 
 [Document4]
-DocumentPath=..\SensWear-V1R1-PPG\SensWear-V1R1-PPG.PrjPcb
+DocumentPath=Sch\SensWear_Debug_DEBUG.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -134,15 +116,9 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-VaultGUID=
-ManagedProjectGUID=
-RevisionGUID=
-ProjectName=SensWear-V1R1-PPG.PrjPcb
-VaultURL=
-VaultName=
 
 [Document5]
-DocumentPath=..\SensWear-V1R1-Temperature\SensWear-V1R1-Temperature.PrjPcb
+DocumentPath=SensWear_Debug.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,15 +133,9 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-VaultGUID=
-ManagedProjectGUID=
-RevisionGUID=
-ProjectName=SensWear-V1R1-Temperature.PrjPcb
-VaultURL=
-VaultName=
 
 [Document6]
-DocumentPath=..\SensWear-V1R1-Touch\SensWear-V1R1-Touch.PrjPcb
+DocumentPath=SensWear-V1R2-Debug-Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -179,16 +149,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-VaultGUID=
-ManagedProjectGUID=
-RevisionGUID=
-ProjectName=SensWear-V1R1-Touch.PrjPcb
-VaultURL=
-VaultName=
+DocumentUniqueId=SAQNPBVJ
 
 [Document7]
-DocumentPath=..\SensWear-V1R1-Panel\SensWear-V1R1-SensorPanel.PrjPcb
+DocumentPath=Output\SensWear_Debug_Manufacturing.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -203,15 +167,43 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-VaultGUID=
-ManagedProjectGUID=
-RevisionGUID=
-ProjectName=SensWear-V1R1-SensorPanel.PrjPcb
-VaultURL=
-VaultName=
 
 [Document8]
-DocumentPath=..\SensWear-V1R2-Debug\SensWear-V1R2-Debug.PrjPcb
+DocumentPath=SensWear-V1R2-Debug-TOC.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UFEAVZVX
+
+[Document9]
+DocumentPath=Sch\SensWear_Debug_Pico.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=80
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VRTMQULF
+
+[Document10]
+DocumentPath=Sch\SensWear_Debug_Pico.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -226,10 +218,236 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-VaultGUID=
-ManagedProjectGUID=
-RevisionGUID=
-ProjectName=SensWear-V1R2-Debug.PrjPcb
+
+[GeneratedDocument1]
+DocumentPath=Output\Manufacturing\Assembly\Bill of Materials\Bill of Materials-SensWear-V1R1-Debug.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Output\Manufacturing\Assembly\Bill of Materials\Bill of Materials-SensWear_Debug.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for SensWear-V1R1-Debug\Design Rule Check - SensWear-V1R1-Debug.html
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for SensWear_Debug\Design Rule Check - SensWear_Debug.html
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.G1
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.G2
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GM
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\Mate2DPro_Debug.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for SensWear-V1R1-Debug.csv
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for SensWear_Debug.csv
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-Debug-RoundHoles-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-Debug-RoundHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-Debug-SlotHoles-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-Debug-SlotHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-Debug.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.G1
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.G2
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GM
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-Debug.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-Debug.REP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-RoundHoles-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-RoundHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-SlotHoles-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug-SlotHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Debug.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear_Debug.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear_Debug.REP
+DItemRevisionGUID=
+
+[Parameter1]
+Name=Version
+Value=1.0
+
+[Parameter2]
+Name=RevisionDate
+Value=20.06.2026
+
+[Parameter3]
+Name=Revision
+Value=C0
+
+[Parameter4]
+Name=Project
+Value=SenseWare-V1R1
+
+[Parameter5]
+Name=Engineer
+Value=Yusein Ali
+
+[Parameter6]
+Name=DrawnBy
+Value=Yusein Ali
+
+[Parameter7]
+Name=BoardName
+Value=SensWear-Debug
+
+[Parameter8]
+Name=ApprovedBy
+Value=Dariush Salami
+
+[Configuration1]
+Name=Sources
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+ConfigurationType=Source
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -717,6 +935,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1176,9 +1424,49 @@ MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
 MatchStrictly2=1
-PhysicalNamingFormat=$Component_$RoomName
+PhysicalNamingFormat=$ComponentPrefix$ComponentIndex.$ChannelIndex
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
+UniqueIDPath0=
+DocumentName0=SensWear_Debug_Main.SchDoc
+IsEnabled0=1
+SelectionScope0=All
+Order0=2
+IndexEnabled0=0
+IndexStartValue0=1
+Suffix0=
+UniqueIDPath1=\DGKNHUUZ
+DocumentName1=SensWear_Debug_UART2USB_1.SchDoc
+IsEnabled1=1
+SelectionScope1=All
+Order1=3
+IndexEnabled1=0
+IndexStartValue1=1
+Suffix1=
+UniqueIDPath2=\WDYSBEFE
+DocumentName2=SensWear_SWD.SchDoc
+IsEnabled2=1
+SelectionScope2=All
+Order2=5
+IndexEnabled2=0
+IndexStartValue2=1
+Suffix2=
+UniqueIDPath3=\SEPQXYEJ
+DocumentName3=SensWear_Debug_DEBUG.SchDoc
+IsEnabled3=1
+SelectionScope3=All
+Order3=1
+IndexEnabled3=0
+IndexStartValue3=1
+Suffix3=
+UniqueIDPath4=\CSCIMLCT
+DocumentName4=SensWear_SWD.SchDoc
+IsEnabled4=1
+SelectionScope4=All
+Order4=4
+IndexEnabled4=0
+IndexStartValue4=1
+Suffix4=
 
 [PrjClassGen]
 CompClassManualEnabled=0
