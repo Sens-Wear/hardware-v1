@@ -1,0 +1,7 @@
+History
+__Previews
+*.log
+
+**/History
+**/__Previews
+**/*.log
