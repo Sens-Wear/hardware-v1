@@ -1,0 +1,113 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\salamid1\Desktop\Projects\SenseWear\Hardware\hardware-v1\SensWear-V1R1-Debug\PCB\SensWear-V1R1-Debug.PcbDoc
+Date     : 28/06/2026
+Time     : 17.57.54
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (IsRegion AND (OnLayer('L1') OR OnLayer('L8'))),(IsRegion or IsTrack)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.22mm) (InPadClass('NPTH')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=3mm) (IsComponent),(OnLayer('Keep-Out Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('All Nets')),(OnLayer('Keep-Out Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (IsTrack And (OnLayer('L1') Or OnLayer('L8')) And InDifferentialPair('RF_ANT_9')),((InNet('GND') AND InPolygon))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (IsTrack And (OnLayer('L1') Or OnLayer('L6')) And (InNet('NetANT3_1') Or InNet('NetANT2_1') Or InNet('NetANT1_1'))),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (IsPad),(IsPad)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (IsPad),(IsTrack)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (ISVia and InDrillLayerPair('L1 - L2 (GND)')),(ISPad)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=2mm) (Preferred=0.12mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=0.18mm) (Preferred=0.152mm) (InDifferentialPairClass('RF_ANT_9'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=40mm) (Preferred=0.4mm) (InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.05mm) (MaxHoleWidth=0.5mm) (PreferredHoleWidth=0.1mm) (MinWidth=0.3mm) (MaxWidth=1mm) (PreferedWidth=0.4mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0mm) (MaxHoleWidth=0.1mm) (PreferredHoleWidth=0.1mm) (MinWidth=0.3mm) (MaxWidth=0.35mm) (PreferedWidth=0.35mm) ((IsVia and (ViaSize <= '0.3')) or IsMicroVia)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.15mm) (Air Gap=0.2mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.1mm) (Conductor Width=0.2mm) (Air Gap=0.3mm) (Entries=4) (IsPad And InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (All)
+   Violation between Minimum Annular Ring: (No Ring) Pad USB80-S1(34.275mm,13.18mm) on Multi-Layer (Annular Ring missing on Top Layer)
+   Violation between Minimum Annular Ring: (0.09997mm (3.936mil) < 0.1mm (3.937mil)) Pad USB80-S1(34.875mm,13.505mm) on Multi-Layer (Annular Ring=0.1mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (No Ring) Pad USB80-S2(34.885mm,21.495mm) on Multi-Layer (Annular Ring missing on Top Layer)
+Rule Violations :3
+
+Processing Rule : Acute Angle Constraint (Minimum=45.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0mm) (Max=10mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.2mm) Between Pad USB80-S1(34.275mm,13.18mm) on Multi-Layer And Pad USB80-S1(34.875mm,13.505mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.2mm) Between Pad USB80-S2(34.275mm,21.82mm) on Multi-Layer And Pad USB80-S2(34.885mm,21.495mm) on Multi-Layer Pad/Via Touching Holes
+Rule Violations :2
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.09mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.05mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (Not InNet('NetL9_1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.5mm) (InDifferentialPair ('RF_ANT_4'))
+Rule Violations :0
+
+Processing Rule : Vias Under SMD Constraint (Allowed=Allowed) (All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.1mm, Vertical Gap = 0.254mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+
+Violations Detected : 5
+Waived Violations : 0
+Time Elapsed        : 00:00:00

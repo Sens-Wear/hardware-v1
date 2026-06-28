@@ -1,0 +1,16 @@
+Altium Designer Pick and Place Locations
+D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Temperature\Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for SensWear-V1R1-Temperature.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       22/03/26
+Time:       14:29
+Revision:   c906503693bf6c13831101c722378e011ca5005e
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"U60","MAX30208CLB+T","BottomLayer","FP-L1022-2-MFG","36.3749","29.7250","0","I2C Digital Temperature Sensor Serial I2C 10-Pin Thin LGA T/R"
+"C60","0.1 uF","TopLayer","CAPC1005X05N","36.3749","29.4000","0","CAP CER 0.1UF 16V X5R 0402"
+"CONN60","NC","TopLayer","51281-1098-PCB","27.1000","29.7250","0",""

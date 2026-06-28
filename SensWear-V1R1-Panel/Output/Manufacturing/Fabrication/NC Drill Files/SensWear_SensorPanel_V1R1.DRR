@@ -1,0 +1,16 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SensWear_SensorPanel_V1R1.PcbDoc   4/2/2026  3:11:51 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : SensWear_SensorPanel_V1R1-RoundHoles-Plated.TXT
+ASCII Non-Plated SlotHoles File : SensWear_SensorPanel_V1R1-SlotHoles-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.15mm (6mil)                                             Round             90        PTH        245.48mm (9.66inch)
+T2      0.2mm (8mil)                                              Slot              30        NPTH       341.91mm (13.46inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              120
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,10 @@
+Output: Report Board Stack
+Type  : Report Board Stack
+From  : PCB Document [SensWear-V1R1-Haptic.PcbDoc]
+   Generated File[SensWear-V1R1-Haptic.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:24:59 PM On 3/22/2026

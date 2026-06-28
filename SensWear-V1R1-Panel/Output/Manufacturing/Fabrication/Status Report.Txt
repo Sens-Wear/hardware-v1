@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [SensWear_SensorPanel_V1R1.PcbDoc]
+   Generated File[SensWear_SensorPanel_V1R1-RoundHoles-Plated.TXT]
+   Generated File[SensWear_SensorPanel_V1R1-SlotHoles-NonPlated.TXT]
+   Generated File[SensWear_SensorPanel_V1R1.LDP]
+   Generated File[SensWear_SensorPanel_V1R1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 3:11:51 PM On 4/2/2026
