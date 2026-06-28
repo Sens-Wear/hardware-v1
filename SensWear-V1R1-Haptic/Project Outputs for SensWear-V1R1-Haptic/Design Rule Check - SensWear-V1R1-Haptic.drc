@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Haptic\PCB\SensWear-V1R1-Haptic.PcbDoc
-Date     : 4/2/2026
-Time     : 11:36:51 AM
+PCB File : C:\Users\salamid1\Desktop\Projects\SenseWear\Hardware\hardware-v1\SensWear-V1R1-Haptic\PCB\SensWear-V1R1-Haptic.PcbDoc
+Date     : 28/06/2026
+Time     : 18.06.22
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (IsTrack),(IsBGA)
 Rule Violations :0
