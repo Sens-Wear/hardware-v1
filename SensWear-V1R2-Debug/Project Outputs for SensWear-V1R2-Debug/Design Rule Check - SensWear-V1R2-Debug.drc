@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\salamid1\Desktop\Projects\SenseWear\Hardware\hardware-v1\SensWear-V1R2-Debug\PCB\SensWear-V1R2-Debug.PcbDoc
-Date     : 28/06/2026
-Time     : 18.53.17
+PCB File : D:\WORK\Projects\SensWear\hardware-v1\SensWear-V1R2-Debug\PCB\SensWear-V1R2-Debug.PcbDoc
+Date     : 7/1/2026
+Time     : 5:29:07 PM
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (IsRegion AND (OnLayer('L1') OR OnLayer('L8'))),(IsRegion or IsTrack)
 Rule Violations :0
@@ -45,6 +45,9 @@ Rule Violations :0
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
 
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: Yes)
+Rule Violations :0
+
 Processing Rule : Width Constraint (Min=0.051mm) (Max=2mm) (Preferred=0.1mm) (All)
 Rule Violations :0
 
@@ -63,10 +66,10 @@ Rule Violations :0
 Processing Rule : Routing Via (MinHoleWidth=0mm) (MaxHoleWidth=0.1mm) (PreferredHoleWidth=0.1mm) (MinWidth=0.3mm) (MaxWidth=0.35mm) (PreferedWidth=0.35mm) ((IsVia and (ViaSize <= '0.3')) or IsMicroVia)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.3mm) (Air Gap=0.2mm) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.3mm) (Conductor Width=0.5mm) (Air Gap=0.2mm) (Entries=4) ((InNet('GND') and (IsVia or IsMicroVia or (IsPad And OnMultiLayer))))
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.3mm) (Conductor Width=0.5mm) (Air Gap=0.2mm) (Entries=4) ((InNet('GND') and (IsVia or IsMicroVia or (IsPad And OnMultiLayer))))
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.3mm) (Air Gap=0.2mm) (Entries=4) (All)
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (All)

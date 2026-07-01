@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=SensWear_Debug_Manufacturing.OutJob
 Description=
-TargetOutputMedium=Assembly
+TargetOutputMedium=AssemblyDrawing
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -73,7 +73,7 @@ OutputName3=Bill of Materials
 OutputCategory3=Report
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=1
 OutputEnabled3_OutputMedium3=0
@@ -85,21 +85,21 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration3_Name1=ColumnNameFormat
 Configuration3_Item1=CaptionAsName
 Configuration3_Name2=General
-Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=2055|FormHeight=904|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=2055|FormHeight=904|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
 Configuration3_Name3=GroupOrder
-Configuration3_Item3=Manufacturer Part Number=True
+Configuration3_Item3=Manufacturer Part Number=True|Manufacturer=True|Comment=True
 Configuration3_Name4=SortOrder
 Configuration3_Item4=Manufacturer Part Number=Up
 Configuration3_Name5=VisibleOrder
-Configuration3_Item5=Manufacturer=100|Manufacturer Part Number=142|Designator=191|Quantity=58|Value=100|Comment=156|Description=660|Supplier 1=115|Supplier Part Number 1=166
+Configuration3_Item5=Manufacturer=100|Manufacturer Part Number=142|Designator=191|Quantity=58|Value=100|Comment=156|Description=660|Footprint=100|Supplier 1=115|Supplier Part Number 1=166
 Configuration3_Name6=VisibleOrder_Flat
-Configuration3_Item6=Manufacturer=100|Manufacturer Part Number=142|Designator=191|Quantity=58|Value=100|Comment=156|Description=660|Supplier 1=115|Supplier Part Number 1=166
+Configuration3_Item6=Manufacturer=100|Manufacturer Part Number=142|Designator=191|Quantity=58|Value=100|Comment=156|Description=660|Footprint=100|Supplier 1=115|Supplier Part Number 1=166
 OutputType4=Pick Place
 OutputName4=Generates pick and place files
 OutputCategory4=Assembly
 OutputDocumentPath4=SensWear-V1R2-Debug.PcbDoc
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=2
 OutputEnabled4_OutputMedium3=0
@@ -321,7 +321,7 @@ OutputName10=Assembly
 OutputCategory10=Documentation
 OutputDocumentPath10=SensWear-V1R2-Debug-Assembly.PCBDwf
 OutputVariantName10=
-OutputEnabled10=0
+OutputEnabled10=1
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
@@ -332,7 +332,7 @@ OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [PublishSettings]
-OutputFilePath2=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\Output\Manufacturing\Assembly\
+OutputFilePath2=D:\WORK\Projects\SensWear\hardware-v1\SensWear-V1R2-Debug\Output\Manufacturing\Assembly
 ReleaseManaged2=0
 OutputBasePath2=.\Output\Manufacturing\
 OutputPathMedia2=[Media Name]
@@ -345,7 +345,7 @@ OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
 OpenOutput2=1
-OutputFilePath3=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\Output\Manufacturing\Fabrication\
+OutputFilePath3=D:\WORK\Projects\SensWear\hardware-v1\SensWear-V1R2-Debug\Output\Manufacturing\Fabrication
 ReleaseManaged3=0
 OutputBasePath3=Output\Manufacturing\
 OutputPathMedia3=[Media Name]
@@ -427,7 +427,7 @@ PDFACompliance6=Disabled
 PDFVersion6=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\Output\Manufacturing\Assembly\
+RelativeOutputPath2=D:\WORK\Projects\SensWear\hardware-v1\SensWear-V1R2-Debug\Output\Manufacturing\Assembly
 OpenOutputs2=1
 AddToProject2=1
 TimestampFolder2=0
@@ -437,7 +437,7 @@ OpenGerberOutput2=0
 OpenNCDrillOutput2=0
 OpenIPCOutput2=0
 EnableReload2=0
-RelativeOutputPath3=D:\WORK\Projects\OpenRing\Hardware\SensWear-V1R1-Debug\Output\Manufacturing\Fabrication\
+RelativeOutputPath3=D:\WORK\Projects\SensWear\hardware-v1\SensWear-V1R2-Debug\Output\Manufacturing\Fabrication
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
