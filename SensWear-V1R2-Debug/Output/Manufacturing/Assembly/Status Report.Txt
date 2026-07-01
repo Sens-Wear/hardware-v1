@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [SensWear-V1R2-Debug.PcbDoc]
+   Generated File[Pick Place for SensWear-V1R2-Debug.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 17.14.00 On 30/06/2026

@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SensWear-V1R2-Debug.PcbDoc   30/06/2026  17.41.23
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top to Bottom
+ASCII Plated RoundHoles File : SensWear-V1R2-Debug-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : SensWear-V1R2-Debug-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : SensWear-V1R2-Debug-SlotHoles-Plated.TXT
+ASCII Non-Plated SlotHoles File : SensWear-V1R2-Debug-SlotHoles-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.15mm (6mil)                                             Round             106       PTH        177.80mm (7.00inch)
+T2      0.6mm (24mil)                                             Slot              2         PTH        19.98mm (0.79inch)
+T3      0.7mm (28mil)                                             Slot              4         PTH        37.69mm (1.48inch)
+T4      0.5mm (20mil)                                             Slot              1         NPTH       0.35mm (0.01inch)
+T5      0.6mm (24mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              114
+
+Total Processing Time (hh:mm:ss) : 00.00.00
